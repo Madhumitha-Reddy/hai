@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="mac-book-pro161-container">
+        <div class="mac-book-pro161-mac-book-pro161">
+          <img
+            src="public/external/unnamed113-w47hh-500w.png"
+            alt="unnamed113"
+            class="mac-book-pro161-unnamed1"
+          />
+          <span class="mac-book-pro161-text100">
+            <span>Digital India</span>
+          </span>
+          <img
+            src="public/external/line266-osf.svg"
+            alt="Line266"
+            class="mac-book-pro161-line2"
+          />
+          <img
+            src="public/external/line165-jsj.svg"
+            alt="Line165"
+            class="mac-book-pro161-line1"
+          />
+          <span class="mac-book-pro161-text102">
+            <span>Power To Empower</span>
+          </span>
+          <div class="mac-book-pro161-group1">
+            <div class="mac-book-pro161-desktop2">
+              <img
+                src="public/external/logo1381-xlsb-200h.png"
+                alt="logo1381"
+                class="mac-book-pro161-logo11"
+              />
+              <img
+                src="public/external/logo11418-5rl7-200w.png"
+                alt="logo11418"
+                class="mac-book-pro161-logo12"
+              />
+              <span class="mac-book-pro161-text104"><span>About Us</span></span>
+              <span class="mac-book-pro161-text106"><span>Services</span></span>
+              <span class="mac-book-pro161-text108">
+                <span>Downloads</span>
+              </span>
+              <span class="mac-book-pro161-text110">
+                <span>Franchise Registration</span>
+              </span>
+              <span class="mac-book-pro161-text112">
+                <span>Training Manual</span>
+              </span>
+              <span class="mac-book-pro161-text114">
+                <span>Privacy Policy</span>
+              </span>
+              <span class="mac-book-pro161-text116"><span>Home</span></span>
+              <span class="mac-book-pro161-text118">
+                <span>Contact Us</span>
+              </span>
+              <div class="mac-book-pro161-frame1">
+                <span class="mac-book-pro161-text120"><span>Close</span></span>
+              </div>
+            </div>
+          </div>
+          <span class="mac-book-pro161-text122"><span>ABOUT US</span></span>
+          <span class="mac-book-pro161-text124">
+            <span>Know More About us</span>
+          </span>
+          <span class="mac-book-pro161-text126">
+            <span>
+              Dear user and visitors, please be informed that this portal
+            </span>
+            <br />
+            <span>
+              is totally free of cost, no cost is asked for its registration
+            </span>
+          </span>
+          <span class="mac-book-pro161-text130"><span>Networking</span></span>
+          <img
+            src="public/external/instagramverificationbadge1120-kphi-200w.png"
+            alt="InstagramVerificationBadge1120"
+            class="mac-book-pro161-instagram-verification-badge1"
+          />
+          <span class="mac-book-pro161-text132">
+            <span>Mission and Vision</span>
+          </span>
+          <img
+            src="public/external/instagramverificationbadge1124-gm7b-200w.png"
+            alt="InstagramVerificationBadge1124"
+            class="mac-book-pro161-instagram-verification-badge2"
+          />
+          <span class="mac-book-pro161-text134">
+            <span>Establishes business relationships with</span>
+            <br />
+            <span>consumers, merchants and vendors networks</span>
+          </span>
+          <span class="mac-book-pro161-text138">
+            <span>Be india’s first and largest</span>
+            <br />
+            <span>fast moving consumers services company</span>
+          </span>
+          <span class="mac-book-pro161-text142">
+            <span>Service Provider</span>
+          </span>
+          <img
+            src="public/external/instagramverificationbadge1123-s7a-200w.png"
+            alt="InstagramVerificationBadge1123"
+            class="mac-book-pro161-instagram-verification-badge3"
+          />
+          <span class="mac-book-pro161-text144">
+            <span>Customer Satisfaction</span>
+          </span>
+          <img
+            src="public/external/instagramverificationbadge1125-c6ok-200w.png"
+            alt="InstagramVerificationBadge1125"
+            class="mac-book-pro161-instagram-verification-badge4"
+          />
+          <span class="mac-book-pro161-text146">
+            <span>It offers e-governance services, high</span>
+            <br />
+            <span>successful electronic payment solutions</span>
+          </span>
+          <span class="mac-book-pro161-text150">
+            <span>It is a great opportunity for retailer</span>
+            <br />
+            <span>to make use of various web based services</span>
+          </span>
+          <span class="mac-book-pro161-text154">
+            <span>Services We Offer</span>
+          </span>
+          <img
+            src="public/external/downarrow1334-17wr-200w.png"
+            alt="DownArrow1334"
+            class="mac-book-pro161-down-arrow"
+          />
+          <div class="mac-book-pro161-frame2">
+            <span class="mac-book-pro161-text156"><span>JOB PORTAL</span></span>
+            <img
+              src="public/external/ellipse21349-fo7m.svg"
+              alt="Ellipse21349"
+              class="mac-book-pro161-ellipse2"
+            />
+            <img
+              src="public/external/unnamed21357-9rfa-200h.png"
+              alt="unnamed21357"
+              class="mac-book-pro161-unnamed2"
+            />
+          </div>
+          <div class="mac-book-pro161-frame3">
+            <img
+              src="public/external/ellipse31350-rla-200h.png"
+              alt="Ellipse31350"
+              class="mac-book-pro161-ellipse3"
+            />
+            <img
+              src="public/external/jpg11358-jvyk-200h.png"
+              alt="jpg11358"
+              class="mac-book-pro161-jpg1"
+            />
+            <span class="mac-book-pro161-text158">
+              <span>ELECTRICITY BILL</span>
+            </span>
+          </div>
+          <div class="mac-book-pro161-frame6">
+            <img
+              src="public/external/ellipse41351-fky-200h.png"
+              alt="Ellipse41351"
+              class="mac-book-pro161-ellipse4"
+            />
+            <img
+              src="public/external/gstgoodservicestaxconcept260nw1018352626jpg11355-bfo-200w.png"
+              alt="gstgoodservicestaxconcept260nw1018352626jpg11355"
+              class="mac-book-pro161-gstgoodservicestaxconcept260nw1018352626jpg1"
+            />
+            <span class="mac-book-pro161-text160"><span>GST</span></span>
+          </div>
+          <img
+            src="public/external/logo21102-6v2-500h.png"
+            alt="logo21102"
+            class="mac-book-pro161-logo2"
+          />
+          <div class="mac-book-pro161-frame4">
+            <img
+              src="public/external/ellipse51352-bocb.svg"
+              alt="Ellipse51352"
+              class="mac-book-pro161-ellipse5"
+            />
+            <img
+              src="public/external/image1711354-gepj-200h.png"
+              alt="IMAGE1711354"
+              class="mac-book-pro161image171"
+            />
+            <span class="mac-book-pro161-text162"><span>PAN CARD</span></span>
+          </div>
+          <div class="mac-book-pro161-frame5">
+            <img
+              src="public/external/ellipse61353-5fmo-200h.png"
+              alt="Ellipse61353"
+              class="mac-book-pro161-ellipse6"
+            />
+            <img
+              src="public/external/rechargemobileiconvector11356-z9z-200w.png"
+              alt="rechargemobileiconvector11356"
+              class="mac-book-pro161-rechargemobileiconvector1"
+            />
+          </div>
+          <span class="mac-book-pro161-text164">
+            <span>MOBILE RECHARGE</span>
+          </span>
+          <span class="mac-book-pro161-text166">
+            <span>
+              All of you are cautioned that Digital India portal has not taken
+              any
+            </span>
+            <br />
+            <span>
+              money for any service so far and no money is being taken for any
+              service
+            </span>
+            <br />
+            <span></span>
+          </span>
+          <span class="mac-book-pro161-text172">
+            <span>
+              Digital India Portal is informing you that in the market many
+              people are cheating
+            </span>
+            <br />
+            <span>
+              in the name of you, you will be requested not to pay any kind of
+              fee to anyone.
+            </span>
+          </span>
+          <span class="mac-book-pro161-text176"><span>Contact Us</span></span>
+          <span class="mac-book-pro161-text178">
+            <span>Feel free to contact us at any time, we will get back</span>
+            <br />
+            <span>to you as soon as possible</span>
+          </span>
+          <span class="mac-book-pro161-text182"><span>Name</span></span>
+          <span class="mac-book-pro161-text184"><span>Email</span></span>
+          <span class="mac-book-pro161-text186"><span>Telephone</span></span>
+          <span class="mac-book-pro161-text188"><span>Message</span></span>
+          <div class="mac-book-pro161-frame7">
+            <span class="mac-book-pro161-text190"><span>Send</span></span>
+          </div>
+          <div class="mac-book-pro161-frame8"></div>
+          <div class="mac-book-pro161-frame9">
+            <span class="mac-book-pro161-text192"><span>Info</span></span>
+            <img
+              src="public/external/email915-qknv-200w.png"
+              alt="Email915"
+              class="mac-book-pro161-email1"
+            />
+            <img
+              src="public/external/call916-llc-200h.png"
+              alt="Call916"
+              class="mac-book-pro161-call"
+            />
+            <img
+              src="public/external/email914-y8oa-200h.png"
+              alt="Email914"
+              class="mac-book-pro161-email2"
+            />
+            <span class="mac-book-pro161-text194">
+              <span>Info@digitalindiaportal.co.in</span>
+            </span>
+            <span class="mac-book-pro161-text196">
+              <span>helpdigitalindiaportal@gmail.com</span>
+            </span>
+            <span class="mac-book-pro161-text198">
+              <span>+91 9368372889</span>
+            </span>
+            <div class="mac-book-pro161-frame10">
+              <span class="mac-book-pro161-text200">
+                <span>view location</span>
+              </span>
+              <img
+                src="public/external/location912-ikjq-200h.png"
+                alt="Location912"
+                class="mac-book-pro161-location"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
